@@ -21,9 +21,10 @@ const BlogPageCart = () => {
             <p className='tag1'>Technology | Trends</p>
             <h1 className='tag2'>Big Data In future</h1>
             <p className='tag3'>Jane Smith</p>
-            <p className='tag4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed <br/>
+            <p className='tag4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
             do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-           <p className='tag5'><FaRegHeart/> <span></span> 600 <span><FaRegCommentDots/><span></span> 50</span></p> 
+           <p className='tag5'><FaRegHeart   className="icon" style={{marginRight:"6px"}} size="17px"color="white"/> <span></span> 600 <span>
+            <FaRegCommentDots className="icon" style={{ marginLeft:"34px", marginRight:"6px"}} size="17px"color="white" /><span></span> 50</span></p> 
            <div className='vl'></div>
             <p className='tag6'>06 JUL 22</p>
             </div>
@@ -33,9 +34,10 @@ const BlogPageCart = () => {
             <p className='tag1'>Technology | Trends</p>
             <h1 className='tag2'>Big Data In future</h1>
             <p className='tag3'>Jane Smith</p>
-            <p className='tag4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed <br/>
+            <p className='tag4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
             do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-           <p className='tag5'><FaRegHeart/> <span></span> 600 <span><FaRegCommentDots/><span></span> 50</span></p> 
+            <p className='tag5'><FaRegHeart   className="icon" style={{marginRight:"6px"}} size="17px"color="white"/> <span></span> 600 <span>
+            <FaRegCommentDots className="icon" style={{ marginLeft:"34px", marginRight:"6px"}} size="17px"color="white" /><span></span> 50</span></p> 
            <div className='vl'></div>
             <p className='tag6'>06 JUL 22</p>
             </div>
@@ -45,9 +47,10 @@ const BlogPageCart = () => {
             <p className='tag1'>Technology | Trends</p>
             <h1 className='tag2'>Big Data In future</h1>
             <p className='tag3'>Jane Smith</p>
-            <p className='tag4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed <br/>
+            <p className='tag4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
             do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-           <p className='tag5'><FaRegHeart/> <span></span> 600 <span><FaRegCommentDots/><span></span> 50</span></p> 
+            <p className='tag5'><FaRegHeart   className="icon" style={{marginRight:"6px"}} size="17px"color="white"/> <span></span> 600 <span>
+            <FaRegCommentDots className="icon" style={{ marginLeft:"34px", marginRight:"6px"}} size="17px"color="white" /><span></span> 50</span></p> 
            <div className='vl'></div>
             <p className='tag6'>06 JUL 22</p>
             </div>
@@ -57,9 +60,10 @@ const BlogPageCart = () => {
             <p className='tag1'>Technology | Trends</p>
             <h1 className='tag2'>Big Data In future</h1>
             <p className='tag3'>Jane Smith</p>
-            <p className='tag4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed <br/>
+            <p className='tag4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
             do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-           <p className='tag5'><FaRegHeart/> <span></span> 600 <span><FaRegCommentDots/><span></span> 50</span></p> 
+            <p className='tag5'><FaRegHeart   className="icon" style={{marginRight:"6px"}} size="17px"color="white"/> <span></span> 600 <span>
+            <FaRegCommentDots className="icon" style={{ marginLeft:"34px", marginRight:"6px"}} size="17px"color="white" /><span></span> 50</span></p>  
            <div className='vl'></div>
             <p className='tag6'>06 JUL 22</p>
             </div>
@@ -69,9 +73,10 @@ const BlogPageCart = () => {
             <p className='tag1'>Technology | Trends</p>
             <h1 className='tag2'>Big Data In future</h1>
             <p className='tag3'>Jane Smith</p>
-            <p className='tag4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed <br/>
+            <p className='tag4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
             do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-           <p className='tag5'><FaRegHeart/> <span></span> 600 <span><FaRegCommentDots/><span></span> 50</span></p> 
+            <p className='tag5'><FaRegHeart   className="icon" style={{marginRight:"6px"}} size="17px"color="white"/> <span></span> 600 <span>
+            <FaRegCommentDots className="icon" style={{ marginLeft:"34px", marginRight:"6px"}} size="17px"color="white" /><span></span> 50</span></p>  
            <div className='vl'></div>
             <p className='tag6'>06 JUL 22</p>
             </div>
@@ -81,9 +86,10 @@ const BlogPageCart = () => {
             <p className='tag1'>Technology | Trends</p>
             <h1 className='tag2'>Big Data In future</h1>
             <p className='tag3'>Jane Smith</p>
-            <p className='tag4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed <br/>
+            <p className='tag4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
             do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-           <p className='tag5'><FaRegHeart/> <span></span> 600 <span><FaRegCommentDots/><span></span> 50</span></p> 
+            <p className='tag5'><FaRegHeart   className="icon" style={{marginRight:"6px"}} size="17px"color="white"/> <span></span> 600 <span>
+            <FaRegCommentDots className="icon" style={{ marginLeft:"34px", marginRight:"6px"}} size="17px"color="white" /><span></span> 50</span></p> 
            <div className='vl'></div>
             <p className='tag6'>06 JUL 22</p>
             </div>

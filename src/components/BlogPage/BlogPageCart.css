@@ -73,10 +73,11 @@ text-align: center;
     font-weight: 300;
     font-size: 14px;
     line-height: 30px;
+    
    
   }
   .BlogCart .tag2{
-   
+    margin-top: 5px;
     margin-left: 20px;
      text-align: left;
     font-style: normal;
@@ -85,7 +86,7 @@ text-align: center;
     line-height: 29px;
   }
  .BlogCart .tag3{
-    margin-top: 3px;
+    margin-top: 14px;
     margin-left: 20px;
      text-align: left;
      font-weight: 300;
@@ -93,25 +94,34 @@ font-size: 14px;
 line-height: 17px;
  }
  .BlogCart .tag4{
-  width: 75%; 
-  word-break: break-all;
+  margin-top: 14px;
+    width: 70%; 
+    word-break: break-all;
     margin-left: 20px;
-     text-align: left;
-     font-weight: 300;
-font-size:20px;
+    text-align: left; 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
 
 
 }
  .BlogCart .tag5{
   position: absolute;
-  bottom: 20px;
+  margin-top: 28px;
   margin-left: 20px;
   text-align: left;
   font-weight: 300;
-  font-size: 3vmin;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
   
 
 }
+
  .BlogCart .tag6 {
   position: absolute;
   writing-mode:vertical-lr;
@@ -140,12 +150,12 @@ letter-spacing: 2px;
  
 .vl {
   border-left: 2px dotted #fff;
-  height:90%;
+  height:93%;
   position: absolute;
   left: 85%;
   align-items: center;
   margin-left: -2%;
-  margin-top: 2%;
+  margin-top: 3%;
   top: 0;
 }
 
@@ -185,7 +195,7 @@ letter-spacing: 2px;
  
   }
   .Blog-Container > div:nth-of-type(5) {
-    background: url('../../Images/2.png');
+    background: url('../../Images/3.jpg');
     background-position: center;
     background-size: cover;
     height: 426px;
@@ -209,7 +219,7 @@ letter-spacing: 2px;
     border-radius: 0px;
   }
   .Blog-Container > div:nth-of-type(8) {
-    background: url('../../Images/2.png');
+    background: url('../../Images/3.jpg');
     background-position: center;
     background-size: cover;
     height: 426px;
@@ -528,14 +538,14 @@ letter-spacing: 2px;
         background: url('../../Images/3.jpg');
         margin-left: -30px;
         margin-right: -30px;
-        height: 400px;
+        height: 408px;
         grid-column: 1 / 9;
         border-radius: 0px;
         background-size: cover;
         background-position: center;
       }
     .Blog-Container > div:nth-of-type(5) {
-        background: url('../../Images/2.png');
+      background: url('../../Images/3.jpg');
         margin-left: -30px;
         margin-right: -30px;
         height: 408px;
@@ -548,7 +558,7 @@ letter-spacing: 2px;
         background: url('../../Images/the_state_of_immersiv.png');
         margin-left: -30px;
         margin-right: -30px;
-        height: 300px;
+        height: 408px;
         grid-column: 1 / 9;
         border-radius: 0px;
         background-size: cover;
@@ -558,17 +568,17 @@ letter-spacing: 2px;
         background: url('../../Images/the_state_of_immersiv.png');
         margin-left: -30px;
         margin-right: -30px;
-        height: 300px;
+        height: 408px;
         grid-column: 1 / 9;
         border-radius: 0px;
         background-size: cover;
         background-position: center;
       }
     .Blog-Container > div:nth-of-type(8) {
-        background: url('../../Images/2.png');
+      background: url('../../Images/3.jpg');
         margin-left: -30px;
         margin-right: -30px;
-        height: 300px;
+        height: 408px;
         grid-column: 1 / 9;
         border-radius: 0px;
         background-size: cover;
@@ -580,7 +590,7 @@ letter-spacing: 2px;
   @media  screen and (max-width:750px) {
 
     .BlogCart .tag1{
-        margin-top: 10px;
+        margin-top: 100px;
         margin-left: 20px;
         text-align: left;
       }
@@ -594,6 +604,19 @@ letter-spacing: 2px;
     .BlogCart .tag4{
         letter-spacing: normal;
         font-size: 14px;
+      }
+   
+      .BlogCart .tag6 {
+        position: absolute;
+        writing-mode:vertical-lr;
+        text-orientation: upright;
+           font-weight: 700;
+      font-size:22px;
+      bottom: 15%;
+      right: 10%;
+      letter-spacing: 2px;
+      
+      
       }
 
 
@@ -636,7 +659,7 @@ letter-spacing: 2px;
         background-position: center;
       }
     .Blog-Container > div:nth-of-type(5) {
-        background: url('../../Images/2.png');
+      background: url('../../Images/3.jpg');
         margin-left: -30px;
         margin-right: -30px;
         height: 326px;
@@ -666,7 +689,7 @@ letter-spacing: 2px;
         background-position: center;
       }
     .Blog-Container > div:nth-of-type(8) {
-        background: url('../../Images/2.png');
+      background: url('../../Images/3.jpg');
         margin-left: -30px;
         margin-right: -30px;
         height: 326px;
