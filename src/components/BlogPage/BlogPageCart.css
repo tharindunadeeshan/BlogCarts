@@ -62,7 +62,9 @@ text-align: center;
   display: flex;
   position: relative;
   
+  
 }
+
 
  
   .BlogCart .tag1{
@@ -126,11 +128,17 @@ line-height: 17px;
   position: absolute;
   writing-mode:vertical-lr;
   text-orientation: upright;
-     font-weight: 700;
-font-size:22px;
-bottom: 25%;
-right: 10%;
-letter-spacing: 2px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  
+  letter-spacing: 0.50em;
+  
+bottom: 15%;
+right: 5%;
+
 
 
 }
@@ -149,8 +157,9 @@ letter-spacing: 2px;
 
  
 .vl {
-  border-left: 2px dotted #fff;
+  border-left: 2px dashed #fff;
   height:93%;
+  border-width: px;
   position: absolute;
   left: 85%;
   align-items: center;
@@ -161,6 +170,7 @@ letter-spacing: 2px;
 
   .Blog-Container > div:nth-of-type(1) {
     background: url('../../Images/the_state_of_immersiv.png');
+    backdrop-filter: blur(50px);
     height: 400px;
     grid-column: 1 / 9;
     background-size: cover;
