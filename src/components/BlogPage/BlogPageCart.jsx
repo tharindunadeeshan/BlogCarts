@@ -13,6 +13,9 @@ const BlogPageCart = () => {
             
         </div>
         <div className="BlogCart">
+            <h1>Blog Articales</h1>
+            <p>Sugessions</p>
+            
           
             
         </div>

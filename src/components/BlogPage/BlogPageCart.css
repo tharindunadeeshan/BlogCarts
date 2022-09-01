@@ -133,11 +133,9 @@ line-height: 17px;
   font-weight: 300;
   font-size: 20px;
   line-height: 30px;
-  
-  letter-spacing: 0.50em;
-  
-bottom: 15%;
-right: 5%;
+  letter-spacing: 0.50em;  
+  bottom: 15%;
+  right: 5%;
 
 
 
@@ -151,20 +149,20 @@ right: 5%;
   line-height: 24px;
   height: 70%;
   bottom: 25%;
-  left: 10%;
+  right: 10%;
   letter-spacing: 6px;
 }
 
  
 .vl {
   border-left: 2px dashed #fff;
-  height:93%;
+  height:83%;
   border-width: px;
   position: absolute;
   left: 85%;
   align-items: center;
-  margin-left: -2%;
-  margin-top: 3%;
+  margin-left: 2px;
+  margin-top: 4vh;
   top: 0;
 }
 
@@ -190,7 +188,7 @@ right: 5%;
     background-position: center;
     background-size: cover;
     grid-column: 1 / 6;
-    border-radius: 0px;
+    border-radius: 15px;
     height: 426px;
    
   }
@@ -201,7 +199,7 @@ right: 5%;
     background-size: cover;
     height: 426px;
     grid-column: 6 / 9;
-    border-radius: 0px;
+    border-radius: 15px;
  
   }
   .Blog-Container > div:nth-of-type(5) {
@@ -210,7 +208,7 @@ right: 5%;
     background-size: cover;
     height: 426px;
     grid-column: 1 / 4;
-    border-radius: 0px;
+    border-radius: 15px;
   }
   .Blog-Container > div:nth-of-type(6) {
     background: url('../../Images/the_state_of_immersiv.png');
@@ -218,7 +216,7 @@ right: 5%;
     background-size: cover;
     height: 426px;
     grid-column: 4 / 9;
-    border-radius: 0px;
+    border-radius: 15px;
   }
   .Blog-Container > div:nth-of-type(7) {
     background: url('../../Images/the_state_of_immersiv.png');
@@ -226,7 +224,7 @@ right: 5%;
     background-size: cover;
     height: 426px;
     grid-column: 1 / 6;
-    border-radius: 0px;
+    border-radius: 15px;
   }
   .Blog-Container > div:nth-of-type(8) {
     background: url('../../Images/3.jpg');
@@ -234,7 +232,7 @@ right: 5%;
     background-size: cover;
     height: 426px;
     grid-column: 6 / 9;
-    border-radius: 0px;
+    border-radius: 15px;
   }
 
   @media screen and (max-width:1920px),
@@ -540,7 +538,7 @@ right: 5%;
         margin-right: -30px;
         height: 400px;
         grid-column: 1 / 9;
-        border-radius: 0px;
+        border-radius: 15px;
         background-size: cover;
         background-position: center;
       }
@@ -550,7 +548,7 @@ right: 5%;
         margin-right: -30px;
         height: 408px;
         grid-column: 1 / 9;
-        border-radius: 0px;
+        border-radius: 15px;
         background-size: cover;
         background-position: center;
       }
@@ -560,7 +558,7 @@ right: 5%;
         margin-right: -30px;
         height: 408px;
         grid-column: 1 / 9;
-        border-radius: 0px;
+        border-radius: 15px;
         background-size: cover;
         background-position: center;
       }
@@ -570,7 +568,7 @@ right: 5%;
         margin-right: -30px;
         height: 408px;
         grid-column: 1 / 9;
-        border-radius: 0px;
+        border-radius: 15px;
         background-size: cover;
         background-position: center;
       }
@@ -580,7 +578,7 @@ right: 5%;
         margin-right: -30px;
         height: 408px;
         grid-column: 1 / 9;
-        border-radius: 0px;
+        border-radius: 15px;
         background-size: cover;
         background-position: center;
       }
@@ -590,7 +588,7 @@ right: 5%;
         margin-right: -30px;
         height: 408px;
         grid-column: 1 / 9;
-        border-radius: 0px;
+        border-radius: 15px;
         background-size: cover;
         background-position: center;
       }
@@ -600,7 +598,7 @@ right: 5%;
   @media  screen and (max-width:750px) {
 
     .BlogCart .tag1{
-        margin-top: 100px;
+        margin-top: 35px;
         margin-left: 20px;
         text-align: left;
       }
@@ -614,19 +612,44 @@ right: 5%;
     .BlogCart .tag4{
         letter-spacing: normal;
         font-size: 14px;
+        
       }
    
       .BlogCart .tag6 {
+       
+        
+        writing-mode: horizontal-tb;
+        font-weight: 250;
+        font-size:16px;
+      letter-spacing: normal;
+
+     
+      }
+      .vl {
+        display: none;
+        border-left: 2px dashed #fff;
+        height:83%;
+        border-width: px;
         position: absolute;
-        writing-mode:vertical-lr;
-        text-orientation: upright;
-           font-weight: 700;
-      font-size:22px;
-      bottom: 15%;
-      right: 10%;
-      letter-spacing: 2px;
-      
-      
+        left: 85%;
+        align-items: center;
+        margin-left: 2px;
+        margin-top: 4vh;
+        top: 0;
+      }
+      .blogtag6{
+        display: none;
+        position: absolute;
+        writing-mode: vertical-rl;
+        
+        transform: rotate(180deg);
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        height: 70%;
+        bottom: 25%;
+        right: 10%;
+        letter-spacing: 6px;
       }
 
 
@@ -654,7 +677,7 @@ right: 5%;
         margin-right: -30px;;
         height: 326px;
         grid-column: 1 / 9;
-        border-radius: 0px;
+        border-radius: 25px;
         background-size: cover;
         background-position: center;
       }
@@ -664,7 +687,7 @@ right: 5%;
         margin-right: -30px;
         height: 326px;
         grid-column: 1 / 9;
-        border-radius: 0px;
+        border-radius: 25px;
         background-size: cover;
         background-position: center;
       }
@@ -674,7 +697,7 @@ right: 5%;
         margin-right: -30px;
         height: 326px;
         grid-column: 1 / 9;
-        border-radius: 0px;
+        border-radius: 25px;
         background-size: cover;
         background-position: center;
       }
@@ -684,7 +707,7 @@ right: 5%;
         margin-right: -30px;
         height: 326px;
         grid-column: 1 / 9;
-        border-radius: 0px;
+        border-radius: 25px;
         background-size: cover;
         background-position: center;
       }
@@ -694,7 +717,7 @@ right: 5%;
         margin-right: -30px;
         height: 326px;
         grid-column: 1 / 9;
-        border-radius: 0px;
+        border-radius: 25px;
         background-size: cover;
         background-position: center;
       }
@@ -704,7 +727,7 @@ right: 5%;
         margin-right: -30px;
         height: 326px;
         grid-column: 1 / 9;
-        border-radius: 0px;
+        border-radius: 25px;
         background-size: cover;
         background-position: center;
       }
