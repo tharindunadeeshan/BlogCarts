@@ -10,6 +10,7 @@
     font-family: 'Roboto', sans-serif;
   }
   .Blog-Container{
+    
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-column-gap: 5px;
@@ -18,6 +19,7 @@
     margin-right: 40px;
     margin-top: 2px;
     margin-bottom: 5px;
+    
   }
   .BlogCart{ 
     display: grid;
@@ -26,6 +28,7 @@
     grid-gap: 2px;
     margin-left: 1px;
     margin-right: 1px;
+    
   }
   .Blog-Container > Div {
     
@@ -39,6 +42,11 @@
     background-color: aliceblue;
 
     transition: all 0.5s ease-in;
+    
+  
+
+
+  
 
   }
  
@@ -62,13 +70,9 @@ text-align: center;
   display: flex;
   position: relative;
   
-
-  
   
 }
 
-
- 
   .BlogCart .tag1{
    
     margin-top: 120px;
@@ -157,28 +161,28 @@ line-height: 17px;
   right: 10%;
   letter-spacing: 6px;
 }
-.Blog-Container .BlogCart .new .backgroundimg{
-  
+.Blog-Container .BlogCart .new img{
+  overflow: hidden;
   position: absolute;
-  top: 0;
+  top: 0%;
   left: 0%;
-  transform: translateX(0%);
-  width: 100%;
+  transform: translateX(-0%);
   height: 100%;
- 
-  filter: blur(3px);
-  border-radius: 15px;
-  margin-top: 0px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  
- 
+
+  width: 100%;
+  filter: blur(50px);
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+margin: -5px -10px -10px -5px;
 
 }
+
+
 .bg-text{
  
-  color: white;
+ 
   top: 50%;
   left: 50%;
   z-index: 2;
@@ -199,10 +203,114 @@ line-height: 17px;
   top: 0;
 }
 
+
+
+.blgArti{
+  width: 328px;
+height: 67px;
+left: 74px;
+top: 1026px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 55px;
+line-height: 67px;
+color: #F5F5F5;
+}
+.searchng{
+  position: absolute;
+}
+
+.searchbox{
+  display: flex;
+  position: absolute;
+  width: 300px;
+height: 45px;
+left:220%;
+top: 25px;
+border: none;
+background: rgba(0, 193, 255, 0.32);
+border-radius: 10px;
+}
+.fisearch{
+  position: absolute;
+  left:320%;
+top: 25px;
+  width: 50px;
+height: 50px;
+background: #00C1FF;
+border-radius: 10px;
+}
+.sugges{
+  position: absolute;
+  top: 38%;
+  width: 98px;
+height: 30px;
+left: 20px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+color: #FFFFFF;
+}
+
+.button1{
+  position: absolute;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+  color: #000000;
+  width: 100px;
+  height: 56px;
+  left: 15px;
+  top: 53%;
+  background: #00C1FF;
+  border-radius: 10px;
+}
+.button2{
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+width: 202px;
+height: 56px;
+
+top: 53%;
+color: #fff;
+background: rgba(255, 255, 255, 0.18);
+border-radius: 10px;
+}
+
+.buttons{
+  position: absolute;
+  left: 120px;
+  top: 53%;
+}
+.giff{
+  position: absolute;
+  bottom: 1%;
+  right: 7%;
+height: 100px;
+width: 100px;
+ 
+}
+.robo{
+  position: absolute;
+  bottom: 3%;
+  right: 35%;
+height: 35vh;
+width: 40vh;
+ 
+}
   .Blog-Container > div:nth-of-type(1) {
     background: url('../../Images/the_state_of_immersiv.png');
-    
-    backdrop-filter: blur(50px);
+       
     height: 400px;
     grid-column: 1 / 9;
     background-size: cover;
@@ -212,13 +320,14 @@ line-height: 17px;
     
   }
   .Blog-Container > div:nth-of-type(2) {
+    
     margin-top: -20px;
     background-color: black;
     height: 200px;
     grid-column: 1 / 9;
   }
   .Blog-Container > div:nth-of-type(3) {
-    
+    background: url('../../Images/the_state_of_immersiv.png');
     background-position: center;
     background-size: cover;
     grid-column: 1 / 6;
@@ -228,7 +337,7 @@ line-height: 17px;
   }
   .Blog-Container > div:nth-of-type(4) {
    
-    
+    background: url('../../Images/the_state_of_immersiv.png');
     background-position: center;
     background-size: cover;
     height: 426px;
@@ -237,7 +346,7 @@ line-height: 17px;
  
   }
   .Blog-Container > div:nth-of-type(5) {
-  
+    background: url('../../Images/the_state_of_immersiv.png');
     background-position: center;
     background-size: cover;
     height: 426px;
@@ -245,7 +354,7 @@ line-height: 17px;
     border-radius: 15px;
   }
   .Blog-Container > div:nth-of-type(6) {
-   
+    background: url('../../Images/the_state_of_immersiv.png');
     background-position: center;
     background-size: cover;
     height: 426px;
@@ -253,7 +362,7 @@ line-height: 17px;
     border-radius: 15px;
   }
   .Blog-Container > div:nth-of-type(7) {
-  
+    background: url('../../Images/the_state_of_immersiv.png');
     background-position: center;
     background-size: cover;
     height: 426px;
@@ -261,12 +370,14 @@ line-height: 17px;
     border-radius: 15px;
   }
   .Blog-Container > div:nth-of-type(8) {
-    
+    background: url('../../Images/the_state_of_immersiv.png');
     background-position: center;
     background-size: cover;
     height: 426px;
     grid-column: 6 / 9;
     border-radius: 15px;
+    background-size: cover;
+
   }
 
   @media screen and (max-width:1920px),
