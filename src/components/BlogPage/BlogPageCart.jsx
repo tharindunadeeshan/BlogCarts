@@ -39,8 +39,8 @@ const BlogPageCart = () => {
            <div className='buttons'>
            <button className='button2'>All</button>
            <button className='button2'>Technologies</button>
-           <button className='button2'>neee</button>
            <button className='button2'>News</button>
+           <button className='button2'>Trends</button>
            </div>
            
             </div>

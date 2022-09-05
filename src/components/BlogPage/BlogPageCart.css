@@ -288,6 +288,7 @@ color: #FFFFFF;
 
 }
 .button2{
+  margin-right: 6px;
   font-size: 17px;
     line-height: 22px;
     padding: 9px 20px;
@@ -341,7 +342,7 @@ width: 350px;
     grid-column: 1 / 9;
   }
   .Blog-Container > div:nth-of-type(3) {
-    background: url('../../Images/the_state_of_immersiv.png');
+    background: url('../../Images/image6.jpg');
     background-position: center;
     background-size: cover;
     grid-column: 1 / 6;
@@ -351,7 +352,7 @@ width: 350px;
   }
   .Blog-Container > div:nth-of-type(4) {
    
-    background: url('../../Images/the_state_of_immersiv.png');
+    background: url('../../Images/image1.jpg');
     background-position: center;
     background-size: cover;
     height: 426px;
@@ -360,7 +361,7 @@ width: 350px;
  
   }
   .Blog-Container > div:nth-of-type(5) {
-    background: url('../../Images/the_state_of_immersiv.png');
+    background: url('../../Images/image2.jpg');
     background-position: center;
     background-size: cover;
     height: 426px;
@@ -368,7 +369,7 @@ width: 350px;
     border-radius: 15px;
   }
   .Blog-Container > div:nth-of-type(6) {
-    background: url('../../Images/the_state_of_immersiv.png');
+    background: url('../../Images/image3.jpg');
     background-position: center;
     background-size: cover;
     height: 426px;
@@ -376,7 +377,7 @@ width: 350px;
     border-radius: 15px;
   }
   .Blog-Container > div:nth-of-type(7) {
-    background: url('../../Images/the_state_of_immersiv.png');
+    background: url('../../Images/image4.jpg');
     background-position: center;
     background-size: cover;
     height: 426px;
@@ -384,7 +385,7 @@ width: 350px;
     border-radius: 15px;
   }
   .Blog-Container > div:nth-of-type(8) {
-    background: url('../../Images/the_state_of_immersiv.png');
+    background: url('../../Images/image5.jpg');
     background-position: center;
     background-size: cover;
     height: 426px;
