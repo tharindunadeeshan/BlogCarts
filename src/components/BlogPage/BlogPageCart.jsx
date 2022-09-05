@@ -22,8 +22,9 @@ const BlogPageCart = () => {
         </div>
         <div className="BlogCart">
             <div className='bg-text'>
-            <div className="searchng">
             <h1 className='blgArti'>Blog Articales</h1>
+            <div className="searchng">
+            
                 
             <form action="">
                 <input  className='searchbox' type="text" placeholder="Search.." name="search"/>
@@ -34,11 +35,11 @@ const BlogPageCart = () => {
 
             <p className='sugges'>Sugessions</p>
         
-            <button className='button1'>All</button>
-           <div className='buttons'>
           
+           <div className='buttons'>
+           <button className='button2'>All</button>
            <button className='button2'>Technologies</button>
-           <button className='button2'>News</button>
+           <button className='button2'>neee</button>
            <button className='button2'>News</button>
            </div>
            
