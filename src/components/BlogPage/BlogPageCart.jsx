@@ -145,6 +145,8 @@ const BlogPageCart = () => {
             
             
         </div>
+    
+       
     </div>
   )
 }
