@@ -277,6 +277,7 @@ color: #FFFFFF;
 }
 
 .buttons{
+  border: none;
   display: inline-block;
   position: absolute;
   left: 12px;
@@ -288,6 +289,8 @@ color: #FFFFFF;
 
 }
 .button2{
+  margin-top: 2px;
+  border: none;
   margin-right: 6px;
   font-size: 17px;
     line-height: 22px;
