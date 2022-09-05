@@ -208,6 +208,8 @@ margin: -5px -10px -10px -5px;
   padding: 10px;
   text-align: left;
 }
+
+
  
 .vl {
   border-left: 2px dashed #fff;
@@ -288,6 +290,7 @@ color: #FFFFFF;
     display: block;
 
 }
+
 .button2{
   margin-top: 2px;
   border: none;
@@ -307,6 +310,9 @@ color: #fff;
 background: rgba(255, 255, 255, 0.18);
 border-radius: 10px;
 
+}
+.button2:hover {
+  background-color: #00C1FF;
 }
 
 
@@ -340,9 +346,11 @@ width: 350px;
   .Blog-Container > div:nth-of-type(2) {
     
     margin-top: -20px;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     height: 200px;
     grid-column: 1 / 9;
+    border-bottom-left-radius: 25px;
+    
   }
   .Blog-Container > div:nth-of-type(3) {
     background: url('../../Images/image6.jpg');
@@ -353,6 +361,12 @@ width: 350px;
     height: 426px;
    
   }
+  .Blog-Container > div:nth-of-type(3):hover {
+    transform: scale(1.025);
+  
+  }
+ 
+  
   .Blog-Container > div:nth-of-type(4) {
    
     background: url('../../Images/image1.jpg');
@@ -361,8 +375,13 @@ width: 350px;
     height: 426px;
     grid-column: 6 / 9;
     border-radius: 15px;
- 
+    
   }
+  .Blog-Container > div:nth-of-type(4):hover {
+    transform: scale(1.025);
+  
+  }
+
   .Blog-Container > div:nth-of-type(5) {
     background: url('../../Images/image2.jpg');
     background-position: center;
@@ -370,6 +389,10 @@ width: 350px;
     height: 426px;
     grid-column: 1 / 4;
     border-radius: 15px;
+  }
+  .Blog-Container > div:nth-of-type(5):hover {
+    transform: scale(1.025);
+  
   }
   .Blog-Container > div:nth-of-type(6) {
     background: url('../../Images/image3.jpg');
@@ -379,6 +402,10 @@ width: 350px;
     grid-column: 4 / 9;
     border-radius: 15px;
   }
+  .Blog-Container > div:nth-of-type(6):hover {
+    transform: scale(1.025);
+  
+  }
   .Blog-Container > div:nth-of-type(7) {
     background: url('../../Images/image4.jpg');
     background-position: center;
@@ -386,6 +413,10 @@ width: 350px;
     height: 426px;
     grid-column: 1 / 6;
     border-radius: 15px;
+  }
+  .Blog-Container > div:nth-of-type(7):hover {
+    transform: scale(1.025);
+  
   }
   .Blog-Container > div:nth-of-type(8) {
     background: url('../../Images/image5.jpg');
@@ -396,6 +427,10 @@ width: 350px;
     border-radius: 15px;
     background-size: cover;
 
+  }
+  .Blog-Container > div:nth-of-type(8):hover {
+    transform: scale(1.025);
+  
   }
 
   @media screen and (max-width:1920px),
