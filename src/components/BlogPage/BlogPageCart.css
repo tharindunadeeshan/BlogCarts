@@ -318,8 +318,8 @@ border-radius: 10px;
 
 .giff{
   position: absolute;
-  bottom: 1%;
-  right: 7%;
+  bottom: 30%;
+  right: 2%;
 height: 100px;
 width: 100px;
  
@@ -349,11 +349,11 @@ width: 350px;
     background-color: rgb(0, 0, 0);
     height: 200px;
     grid-column: 1 / 9;
-    border-bottom-left-radius: 25px;
+    
     
   }
   .Blog-Container > div:nth-of-type(3) {
-    background: url('../../Images/image6.jpg');
+    background: linear-gradient(rgb(0.7,0.7,0.6,0.5),rgb(0.7,0.7,0.6,0.5)), url('../../Images/image6.jpg');
     background-position: center;
     background-size: cover;
     grid-column: 1 / 6;
@@ -369,7 +369,7 @@ width: 350px;
   
   .Blog-Container > div:nth-of-type(4) {
    
-    background: url('../../Images/image1.jpg');
+    background:linear-gradient(rgb(0.7,0.7,0.6,0.5),rgb(0.7,0.7,0.6,0.5)),  url('../../Images/image1.jpg');
     background-position: center;
     background-size: cover;
     height: 426px;
@@ -383,7 +383,7 @@ width: 350px;
   }
 
   .Blog-Container > div:nth-of-type(5) {
-    background: url('../../Images/image2.jpg');
+    background:linear-gradient(rgb(0.7,0.7,0.6,0.5),rgb(0.7,0.7,0.6,0.5)),  url('../../Images/image2.jpg');
     background-position: center;
     background-size: cover;
     height: 426px;
@@ -395,7 +395,7 @@ width: 350px;
   
   }
   .Blog-Container > div:nth-of-type(6) {
-    background: url('../../Images/image3.jpg');
+    background:linear-gradient(rgb(0.7,0.7,0.6,0.5),rgb(0.7,0.7,0.6,0.5)),  url('../../Images/image3.jpg');
     background-position: center;
     background-size: cover;
     height: 426px;
@@ -407,7 +407,7 @@ width: 350px;
   
   }
   .Blog-Container > div:nth-of-type(7) {
-    background: url('../../Images/image4.jpg');
+    background: linear-gradient(rgb(0.7,0.7,0.6,0.5),rgb(0.7,0.7,0.6,0.5)), url('../../Images/image4.jpg');
     background-position: center;
     background-size: cover;
     height: 426px;
@@ -419,7 +419,7 @@ width: 350px;
   
   }
   .Blog-Container > div:nth-of-type(8) {
-    background: url('../../Images/image5.jpg');
+    background: linear-gradient(rgb(0.7,0.7,0.6,0.5),rgb(0.7,0.7,0.6,0.5)), url('../../Images/image5.jpg');
     background-position: center;
     background-size: cover;
     height: 426px;
