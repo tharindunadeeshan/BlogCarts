@@ -5,8 +5,10 @@ import robo  from '../../Images/robo.gif';
 import { FaRegCommentDots,FaRegHeart } from "react-icons/fa";
 import { FiAlignJustify } from "react-icons/fi";
 
+
 const BlogPageCart = () => {
   return (
+    
     <div className="Blog-Container">
         <div className="BlogCart">
         <div>
@@ -20,8 +22,11 @@ const BlogPageCart = () => {
           
             
         </div>
+        
         <div className="BlogCart">
+       
             <div className='bg-text'>
+           
             <h1 className='blgArti'>Blog Articales</h1>
             <div className="searchng">
             
@@ -31,6 +36,7 @@ const BlogPageCart = () => {
                 <FiAlignJustify className='fisearch'type="submit" />
             </form>
             </div>
+            
            
 
             <p className='sugges'>Sugessions</p>
@@ -42,10 +48,8 @@ const BlogPageCart = () => {
            <button className='button2'>News</button>
            <button className='button2'>Trends</button>
            </div>
-           
+            
             </div>
-            
-            
          
           
             
@@ -70,6 +74,7 @@ const BlogPageCart = () => {
             
         </div>
         <div className="BlogCart">
+            
         <div className="bg-text">
             <p className='tag1'>Technology | Trends</p>
             <h1 className='tag2'>Big Data In future</h1>
@@ -81,6 +86,7 @@ const BlogPageCart = () => {
            <div className='vl'></div>
             <p className='tag6'>06 JUL 22</p>
             
+          
             </div>
             
         </div>

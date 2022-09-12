@@ -1,17 +1,15 @@
 
 import './App.css';
-import BlogPageCart from './components/BlogPage/BlogPageCart';
-import Footer from './components/Footer/footer';
-import Navbar from './components/Navbar/Navbar';
+
+import CardAnim from './components/CardAnimationEffect/CardAnim';
+
 
 
 function App() {
   return (
     <div className="App">
    
-          <Navbar/> 
-          <BlogPageCart/>
-          <Footer />
+          <CardAnim/>
         
     </div>
   );
